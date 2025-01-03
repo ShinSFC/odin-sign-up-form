@@ -1,0 +1,17 @@
+body {
+}
+
+.left-div {
+    display: inline-block;
+    background-image: url('./caleb-george.jpg');
+    background-size: 100% 100%;
+    /* height: 100%;
+    width: 50%; */
+}
+
+.odin-logo {
+}
+
+.right-div {
+    display: inline-block;
+}
