@@ -1,5 +1,8 @@
+@
+
 body {
     background-color: black;
+    height: 100;
 }
 
 .main-container {
@@ -16,21 +19,29 @@ body {
     background-position: left;
 
     margin-left: 250px;
-    height: 300px;
-    width: 10%;
+    height: 600px;
+    width: 300px;
 }
 
 .left-div div {
-    flex:1;     /* this centers the odin logo div */
+    flex: 1;     /* this centers the odin logo div */
 }
 
 .odin-logo {
+
+}
+
+h2 {
+    color: white;
+    font-size: 40px;
 }
 
 .logo-div {
-    background-color: black;
-    opacity: 0.5;
-
+    background-color: rgba(0 0 0 / 0.5); /* opacity will cause text to also be transparent */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 170px 0 170px;  /* reduces height of transparent grey behind Odin logo */
 }
 
 .right-div {
