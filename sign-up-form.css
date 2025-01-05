@@ -1,4 +1,7 @@
-@
+@font-face {
+    font-family: 'norse-bold';
+    src: url('Norse-Bold.otf'); 
+}
 
 body {
     background-color: black;
@@ -32,8 +35,9 @@ body {
 }
 
 h2 {
-    color: white;
+    font-family: norse-bold;
     font-size: 40px;
+    color: white;
 }
 
 .logo-div {
