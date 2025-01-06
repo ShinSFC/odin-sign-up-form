@@ -67,3 +67,7 @@ span {
 label {
     display: block;
 }
+
+.button {
+    padding: 10px;
+}
