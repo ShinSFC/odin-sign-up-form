@@ -72,6 +72,8 @@ label {
     padding: 10px;
 }
 
-a {
-    text-decoration: none;
+button {
+    background-color: lightblue;
+    border: darkblue;
+    border-radius: 2px;
 }
