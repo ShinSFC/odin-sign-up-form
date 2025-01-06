@@ -42,11 +42,29 @@ span {
     justify-content: center;
     align-items: center;
     height: 100px;
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 .right-div {
     display: inline-block;
     color: black;
-    background-color: white;
+    background-color: azure;
+    padding: 20px;
+    width: 600px;
+}
+
+.forms-container {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.forms-div-left {
+    background-color: pink;
+    width: 50%;
+}
+
+.forms-div-right {
+    background-color: pink;
+    width: 50%;
 }
