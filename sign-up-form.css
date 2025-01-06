@@ -47,5 +47,6 @@ span {
 
 .right-div {
     display: inline-block;
-    color: white;
+    color: black;
+    background-color: white;
 }
