@@ -71,3 +71,7 @@ label {
 .button {
     padding: 10px;
 }
+
+a {
+    text-decoration: none;
+}
