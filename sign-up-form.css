@@ -56,15 +56,14 @@ span {
 .forms-container {
     display: flex;
     flex-direction: row;
-
 }
 
-.forms-div-left {
-    background-color: pink;
+.forms-div-left, .forms-div-right {
+    background-color: lightgrey;
     width: 50%;
+    padding: 10px;
 }
 
-.forms-div-right {
-    background-color: pink;
-    width: 50%;
+label {
+    display: block;
 }
