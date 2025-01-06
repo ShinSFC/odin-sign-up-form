@@ -14,8 +14,8 @@ body {
 }
 
 .left-div {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
 
     background-image: url('./caleb-george.jpg'); /* image by Caleb George */
     background-size: 100% 100%;  /* makes background image whole with nothing cut off */
@@ -26,17 +26,13 @@ body {
     width: 300px;
 }
 
-.left-div div {
-    flex: 1;     /* this centers the odin logo div */
-}
-
 .odin-logo {
-
+    height: 80px;
 }
 
-h2 {
+span {
     font-family: norse-bold;
-    font-size: 40px;
+    font-size: 60px;
     color: white;
 }
 
@@ -45,7 +41,8 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 170px 0 170px;  /* reduces height of transparent grey behind Odin logo */
+    height: 100px;
+    margin-top: 200px;
 }
 
 .right-div {
