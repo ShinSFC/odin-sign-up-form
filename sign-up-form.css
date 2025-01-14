@@ -68,12 +68,21 @@ label {
     display: block;
 }
 
+input {
+    outline: none;
+}
+
 .button {
     padding: 10px;
 }
 
 button {
     background-color: lightblue;
-    border: darkblue;
+    border: solid darkblue;
+    border-radius: 2px;
+}
+
+input:focus {
+    border: solid red;
     border-radius: 2px;
 }
