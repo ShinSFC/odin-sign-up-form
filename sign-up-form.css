@@ -84,16 +84,15 @@ input {
 
 button {
     background-color: lightblue;
-    border: solid darkblue;
+    border: 1.5px solid darkblue;
     border-radius: 2px;
 }
-
 input:focus {
-    border: solid blue;
+    border: 1.5px solid blue;
     border-radius: 2px;
 }
 
 #password:invalid,
 #confirm-password:invalid {
-    border: solid red;
+    border: 1.5px solid red;
 }
