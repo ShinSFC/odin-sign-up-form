@@ -83,6 +83,11 @@ button {
 }
 
 input:focus {
-    border: solid red;
+    border: solid blue;
     border-radius: 2px;
+}
+
+#password:invalid,
+#confirm-password:invalid {
+    border: solid red;
 }
