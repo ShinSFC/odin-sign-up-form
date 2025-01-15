@@ -45,6 +45,12 @@ span {
     margin-top: 150px;
 }
 
+.photo-credit {
+    color: white;
+    font-size: 10px; 
+    margin-top: 330px;
+}
+
 .right-div {
     display: inline-block;
     color: black;
